@@ -4,7 +4,7 @@ const { getFoldMode } = require('../statusBar');
 const myDecorationType = vscode.window.createTextEditorDecorationType({
   after: {
     contentText: '',
-    color: 'cyan',
+    color: '#888',
     fontStyle: 'italic',
     margin: '0 0 0 8px',
   },

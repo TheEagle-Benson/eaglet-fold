@@ -3,6 +3,8 @@
   "displayName": "Eaglet Fold",
   "description": "Fold Long Tailwind Classes",
   "version": "0.0.1",
+  "publisher": "theeagle",
+  "icon": "media/eaglet-fold-logo.png",
   "engines": {
     "vscode": "^1.103.0"
   },
