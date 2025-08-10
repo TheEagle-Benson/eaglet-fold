@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "theeagle",
   "icon": "media/eaglet-fold-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheEagle-Benson/eaglet-fold"
+  },
   "engines": {
     "vscode": "^1.103.0"
   },
@@ -45,7 +49,10 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "publish:patch": "vsce publish patch",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major"
   },
   "devDependencies": {
     "@types/vscode": "1.102.0",
