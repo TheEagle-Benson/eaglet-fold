@@ -1,9 +1,17 @@
-# Change Log
+# Changelog
 
-All notable changes to the "eaglet-fold" extension will be documented in this file.
+All notable changes to the **Eaglet Fold** extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+---
 
-- Initial release
+## [0.0.1] - 2025-08-10
+### Added
+- Initial release of **Eaglet Fold** 🎉
+- Command to **fold/unfold long Tailwind CSS class lists** in HTML, JSX, and similar files.
+- Context menu options for folding/unfolding classes.
+- Toggle command for enabling/disabling fold mode.
+- Extension logo and branding.
+- README with screenshots, demo GIF, and usage instructions.
